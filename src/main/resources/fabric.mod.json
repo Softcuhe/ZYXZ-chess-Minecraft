@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "kodarichess",
+  "version": "${version}",
+  "name": "ZYXZ chess",
+  "description": "Fancy a chess match? Play a bot, challenge someone on your server, and customize your pieces. No big deal if your king gets bonked.",
+  "authors": ["adakxz"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.kodari.chess.ChessMod"],
+    "client": ["com.kodari.chess.client.ChessClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
